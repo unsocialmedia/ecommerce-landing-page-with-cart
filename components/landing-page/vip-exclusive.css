@@ -1,0 +1,63 @@
+.ve__main-container {
+    height: 75px;
+    max-height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ve__background-img {
+    height: 75px;
+    max-height: 75px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.ve__header {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 130px;
+}
+
+.ve__body {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 350px !important;
+    align-items: center;
+    display: flex;
+}
+
+.swd__shop-now {
+    width: 149px;
+    height: 42px;
+    padding: 10px 20px 10px 20px;
+    gap: 15px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    background: #FFFFFF;
+}
+
+.ve__button {
+    margin-left: 100px;
+}
+
+.ve__content-cointainer {
+    width: 70%;
+    margin-left: 100px;
+}

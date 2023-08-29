@@ -1,0 +1,33 @@
+
+
+.benefits__row {
+    display: flex;
+    width: 100%;
+    background:#F2F2F2;
+}
+
+.benefit {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 50px;
+}
+
+.benefits__icon {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+    .benefits__row {
+        display: flex;
+        width: 100%;
+        overflow-x: auto
+    }
+
+    .benefit {
+        width: 340px;
+        max-width: 340px;
+        min-width: 340px;
+    }
+}

@@ -55,7 +55,7 @@
             </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+        <div class="d-flex flex-column flex-sm-row justify-content-between">
             <p>&copy; 2021 THREADED All rights reserved.</p>
             <a href="#logo"><img src="./assets/index/Logo.svg" alt="Threaded Logo" /></a>
         </div>

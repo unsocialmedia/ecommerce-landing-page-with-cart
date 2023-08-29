@@ -1,4 +1,5 @@
-@import "footer.css"; /* Using a string */
+@import "footer.css"; 
+@import "./components/landing-page/landing-page.css";
 
 body {
     margin: 0;
