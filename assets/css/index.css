@@ -1,9 +1,18 @@
-@import "footer.css";
-@import "./components/landing-page/landing-page.css";
+@import "./footer.css";
+@import "./cart.css";
+@import "./benefits.css";
+@import "./hero.css";
+@import "./site-wide-deals.css";
+@import "./vip-exclusive.css";
+@import "./trending.css";
+@import "./new-in.css";
+@import "./recently-bought.css";
+@import "./insta.css";
+@import "./newsletter.css";
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat' !important;
 }
 
 .navbar {
@@ -206,4 +215,9 @@ body {
     width: 100%;
     background: #000000;
     color: #FFFFFF;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
 }

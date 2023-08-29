@@ -6,27 +6,27 @@
     <div class="row insta__item-list">
         <div class="col-md-2 insta__gallery-item">
             <a href="#">
-                <img class="insta__post-image" src="././assets/insta/post1.jpg" alt="Insta Post 1">
+                <img class="insta__post-image" src="././assets/images/insta/post1.jpg" alt="Insta Post 1">
             </a>
         </div>
         <div class="col-md-2 insta__gallery-item">
             <a href="#">
-                <img class="insta__post-image" src="././assets/insta/post2.jpg" alt="Insta Post 2">
+                <img class="insta__post-image" src="././assets/images/insta/post2.jpg" alt="Insta Post 2">
             </a>
         </div>
         <div class="col-md-2 insta__gallery-item">
             <a href="#">
-                <img class="insta__post-image" src="././assets/insta/post3.jpg" alt="Insta Post 3">
+                <img class="insta__post-image" src="././assets/images/insta/post3.jpg" alt="Insta Post 3">
             </a>
         </div>
         <div class="col-md-2 insta__gallery-item">
             <a href="#">
-                <img class="insta__post-image" src="././assets/insta/post4.jpg" alt="Insta Post 4">
+                <img class="insta__post-image" src="././assets/images/insta/post4.jpg" alt="Insta Post 4">
             </a>
         </div>
         <div class="col-md-2 insta__gallery-item">
             <a href="#">
-                <img class="insta__post-image" src="././assets/insta/post5.jpg" alt="Insta Post 5">
+                <img class="insta__post-image" src="././assets/images/insta/post5.jpg" alt="Insta Post 5">
             </a>
         </div>
     </div>

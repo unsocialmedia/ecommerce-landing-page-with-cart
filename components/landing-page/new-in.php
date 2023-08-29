@@ -1,5 +1,5 @@
 <div class="ni__main-container">
-    <img class="ni__background-img" src="././assets/new-in/bg.png" alt="New Arrivals BG">
+    <img class="ni__background-img" src="././assets/images/new-in/bg.png" alt="New Arrivals BG">
     <div class="container">
         <div class="row">
             <div class="col-md-6"></div>

@@ -1,5 +1,5 @@
 <div class="ve__main-container">
-    <img class="ve__background-img" src="././assets/vip-exclusive/bg.png" alt="Bubbles Light">
+    <img class="ve__background-img" src="././assets/images/vip-exclusive/bg.png" alt="Bubbles Light">
     <div class="row ve__content-cointainer">
         <div class="col-md-6 ve__header">
             <span>BLACK FRIDAY EXCLUSIVE</span>

@@ -13,7 +13,7 @@
                     <button type="submit" class="rb__inner-button">Add To Cart</button>
                 </form>
             </div>
-            <img class="rb__cat-image" src="././assets/recently-bought/recent1.jpg" alt="Recent 1">
+            <img class="rb__cat-image" src="././assets/images/recently-bought/recent1.jpg" alt="Recent 1">
             <p class="rb__cat-description">Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</p>
             <div class="row">
                 <div class="col"><p class="rb__price">$38</p></div>
@@ -31,7 +31,7 @@
                     <button type="submit" class="rb__inner-button">Add To Cart</button>
                 </form>
             </div>
-            <img class="rb__cat-image" src="././assets/recently-bought/recent2.jpg" alt="Recent 2">
+            <img class="rb__cat-image" src="././assets/images/recently-bought/recent2.jpg" alt="Recent 2">
             <p class="rb__cat-description">Chevron Flap Crossbody Bag</p>
             <div class="row">
                 <div class="col-md-4"><p class="rb__price sale">$5.77</p></div>
@@ -48,7 +48,7 @@
                     <button type="submit" class="rb__inner-button">Add To Cart</button>
                 </form>
             </div>
-            <img class="rb__cat-image" src="././assets/recently-bought/recent3.jpg" alt="Recent 3">
+            <img class="rb__cat-image" src="././assets/images/recently-bought/recent3.jpg" alt="Recent 3">
             <p class="rb__cat-description">Manila Tan Multi Plaid Oversized Fringe Scarf</p>
             <div class="row">
                 <div class="col-md-4"><p class="rb__price sale">$29</p></div>
@@ -65,7 +65,7 @@
                     <button type="submit" class="rb__inner-button">Add To Cart</button>
                 </form>
             </div>
-            <img class="rb__cat-image" src="././assets/recently-bought/recent4.jpg" alt="Recent 4">
+            <img class="rb__cat-image" src="././assets/images/recently-bought/recent4.jpg" alt="Recent 4">
             <p class="rb__cat-description">Diamante Puff Sleeve Dress Black</p>
             <div class="row">
                 <div class="col-md-4"><p class="rb__price sale">$45.99</p></div>
@@ -82,7 +82,7 @@
                     <button type="submit" class="rb__inner-button">Add To Cart</button>
                 </form>
             </div>
-            <img class="rb__cat-image" src="././assets/recently-bought/recent5.jpg" alt="Recent 5">
+            <img class="rb__cat-image" src="././assets/images/recently-bought/recent5.jpg" alt="Recent 5">
             <p class="rb__cat-description">Banneth Open Front Formal Dress In Black</p>
             <div class="row">
                 <div class="col-md-4"><p class="rb__price sale">$69</p></div>
