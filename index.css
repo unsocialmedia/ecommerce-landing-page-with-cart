@@ -1,4 +1,4 @@
-@import "footer.css"; 
+@import "footer.css";
 @import "./components/landing-page/landing-page.css";
 
 body {
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
 }
 
-.navbar-left a{
+.navbar-left a {
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -39,12 +39,12 @@ body {
     padding: 9px 15px;
     text-transform: uppercase;
 
-    &.active{
+    &.active {
         font-weight: 600;
     }
 }
 
-.mobile-navbar-menus{
+.mobile-navbar-menus {
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
 
-    &.active{
+    &.active {
         font-weight: 600;
     }
 }
@@ -69,7 +69,7 @@ body {
     float: right;
     display: flex;
     align-items: center;
-    
+
     & a {
         color: white;
         text-decoration: none;
@@ -77,18 +77,18 @@ body {
 }
 
 .navbar-dropdown {
-    Width: 110px;
-    Height: 35px;
-    border: 1px solid #F2F2F2;
-    border-radius: 35px; 
+    width: 110px;
+    height: 35px;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    align-content: center;    
+    align-content: center;
     padding-left: 10px;
 
-    & p { 
+    & p {
         padding: 15px 0px 0px 4px;
     }
 }
@@ -148,4 +148,62 @@ body {
     justify-content: flex-start;
 }
 
+.nav__cart-dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
 
+.nav__cart-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    max-height: 555px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.nav__cart-dropdown:hover .nav__cart-items {
+    display: block;
+}
+
+.nav__cart-item {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.nav__item-image {
+    max-width: 80px;
+    max-height: 100px;
+}
+
+.nav__cart-details {
+    font-size: 12px;
+
+    & p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.nav__cart-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__checkout {
+    border: none;
+    border-radius: 0px;
+    height: 60px;
+    width: 100%;
+    background: #000000;
+    color: #FFFFFF;
+}

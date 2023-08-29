@@ -10,7 +10,18 @@
     </div>
     <div class="navbar-right">
         <a href="#user"><img src="./assets/index/bx_bx-user.svg" alt="User Icon" /></a>
-        <a href="#shopping"><img src="./assets/index/bx_bx-shopping-bag.svg" alt="Shopping Bag Icon" /></a>
+        <div class="nav__cart-dropdown">
+            <a href="#"><img class="nav__cart-icon" src="./assets/index/bx_bx-shopping-bag.svg" alt="Shopping Bag Icon" /></a>
+            <div class="nav__cart-items" id="nav__cart-items">
+                <div class="nav__cart-total">
+                    <p id="totalQty">My Bag (0)</p>
+                    <p id="totalAmount">$ 0.00</p>
+                </div>
+                <button class="nav__checkout">
+                    BEGIN CHECKOUT
+                </button>
+            </div>
+        </div>
         <a href="#heart"><img src="./assets/index/bx_bx-heart.svg" alt="Heart Icon" /></a>
         <a href="#support"><img src="./assets/index/bx_bx-support.svg" alt="Support Icon" /></a>
         <a href="#search"><img src="./assets/index/bx_bx-search.svg" alt="Search Icon" /></a>
@@ -18,11 +29,6 @@
             <img src="./assets/index/US Flag.svg" alt="Search Icon" />
             <p>USD $</p>
             <a href="#more"><img src="./assets/index/Vector.svg" alt="Search Icon" /></a>
-            <div class="dropdown-content">
-                <a href="#item1">Item 1</a>
-                <a href="#item2">Item 2</a>
-                <a href="#item3">Item 3</a>
-            </div>
         </div>
     </div>
 </nav>
@@ -57,11 +63,11 @@
 </nav>
 
 <script>
-    $(document).ready(function() {
-        $('.navbar-toggler').on('click', function() {
-            $('.navbar-collapse').toggleClass('show');
-        });
-    });
+    // $(document).ready(function() {
+    //     $('.navbar-toggler').on('click', function() {
+    //         $('.navbar-collapse').toggleClass('show');
+    //     });
+    // });
 </script>
 
 </body>
